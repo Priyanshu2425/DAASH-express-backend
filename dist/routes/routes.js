@@ -17,7 +17,7 @@ const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
 const zod_1 = __importDefault(require("zod"));
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
-const device_1 = require("../routes/device/device");
+const device_1 = require("./device/device");
 const db_1 = require("../db");
 const auth_1 = require("../middleware/auth");
 const router = express_1.default.Router();

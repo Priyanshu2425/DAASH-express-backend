@@ -18,3 +18,5 @@ const PORT: number = 3000;
 app.listen(PORT, ()=>{
     console.log(`Successfully started on PORT ${PORT}`);
 })
+
+module.exports = app;

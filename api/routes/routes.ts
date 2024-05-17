@@ -5,7 +5,7 @@ dotenv.config();
 import z from 'zod'
 import jwt from 'jsonwebtoken'
 
-import { deviceRouter } from '../routes/device/device'
+import { deviceRouter } from './device/device'
 
 import { User, Device} from '../db'
 import { auth } from '../middleware/auth'
